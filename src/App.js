@@ -12,7 +12,7 @@ function App() {
   return (
     <Container>
       <Wrapper>
-        <Title>Letter Generator using PaLM API</Title>
+        <Title>Letter Generator</Title>
         <LetterForm onGenerate={handleGenerate} />
         {generatedLetter && <Generated letter={generatedLetter} />}
       </Wrapper>

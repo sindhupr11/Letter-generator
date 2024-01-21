@@ -7,6 +7,13 @@ export const Form = styled.form`
     border-radius: 10px;
 `;
 
+export const TextField = styled.input`
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+`;
+
 export const Button = styled.button`
     padding: 10px 20px;
     border: none;

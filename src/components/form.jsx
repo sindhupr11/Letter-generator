@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { generateLetter } from '../api'; 
-import { Form, Button }  from './styles';
+import { Form, Button, TextField }  from './styles';
 
 const LetterForm = ({ onGenerate }) => {
   const [prompt, setPrompt] = useState('');
@@ -24,7 +24,7 @@ const LetterForm = ({ onGenerate }) => {
   return (
     <div>
       <Form onSubmit={handleSubmit}>
-        <textarea
+        <TextField
           value={prompt}
           onChange={(e) => setPrompt(e.target.value)}
           placeholder="Enter prompt"
