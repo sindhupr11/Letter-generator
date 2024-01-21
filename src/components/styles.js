@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Form = styled.form`
-    width: 100%;
+    width: 250px;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -33,9 +33,9 @@ export const Button = styled.button`
     }
 `;
 
-export const TextArea = styled.div`
-    width: 100%;
-    height: 200px;
+export const TextArea = styled.textarea`
+    width: 250px;
+    height: 300px;
     padding: 10px;
     margin-top: 10px;
     border-radius: 10px;
