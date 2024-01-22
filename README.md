@@ -1,7 +1,7 @@
 
 # Letter Generator
 
-This project is a React application that utilizes the PaLM API to generate letters. It uses Redux for state management and Styled Components for styling.
+This project is a React application that utilizes the Gemini PRO API to generate letters. It uses Redux for state management and Styled Components for styling.
 
 ## Table of Contents
 
