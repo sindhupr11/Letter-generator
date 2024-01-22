@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Form = styled.form`
-    width: 250px;
+    width: 500px;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -22,6 +22,10 @@ export const Button = styled.button`
     color: white;
     border-color: #FF007B;
     background-color: #820300;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     &:hover {
         background-color: #B80000;
@@ -34,7 +38,7 @@ export const Button = styled.button`
 `;
 
 export const TextArea = styled.textarea`
-    width: 250px;
+    width: 500px;
     height: 300px;
     padding: 10px;
     margin-top: 10px;
