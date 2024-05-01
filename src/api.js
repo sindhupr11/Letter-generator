@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from "https://esm.run/@google/generative-ai";
 
-const genAI = new GoogleGenerativeAI('AIzaSyDZOOJ5D5VV4x-Ro7FAbK0IS_PSAe97UBM');
+const genAI = new GoogleGenerativeAI('AIzaSyCcphAS2BhCB1xBwGJhc2xsXoG4KzBKzhs');
 
 
 export const generateLetter = async (prompt) => {
